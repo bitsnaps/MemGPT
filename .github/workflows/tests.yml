@@ -32,6 +32,9 @@ jobs:
     - name: Install poetry
       run: pip install poetry
 
+    - name: Set Poetry pypi-token
+      run: poetry config pypi-token.pypi ${{ secrets.PYPI_TOKEN }}
+
     - name: Set Poetry config
       run: |
         poetry config virtualenvs.in-project false
