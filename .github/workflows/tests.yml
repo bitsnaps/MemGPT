@@ -32,6 +32,12 @@ jobs:
     - name: Install poetry
       run: pip install poetry
 
+    - name: Check PYPI_TOKEN secret
+      run: |
+        if [[ -z "${{ secrets.PYPI_TOKEN }}" ]]; then
+          echo "PYPI_TOKEN secret is not set. Please set it in the repository settings."
+          exit 1
+        fi
     - name: Set Poetry pypi-token
       run: poetry config pypi-token.pypi ${{ secrets.PYPI_TOKEN }}
 
