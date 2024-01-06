@@ -1,0 +1,3 @@
+The contents of the new file `requirements.txt` will be as follows:
+
+black[jupyter]
