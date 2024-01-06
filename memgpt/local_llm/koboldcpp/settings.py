@@ -1,4 +1,5 @@
 from ...constants import LLM_MAX_TOKENS
+from ...constants import LLM_MAX_TOKENS
 
 # see https://lite.koboldai.net/koboldcpp_api#/v1/post_v1_generate
 SIMPLE = {
@@ -20,6 +21,6 @@ SIMPLE = {
         # '\n#',
         # '\n\n\n',
     ],
-    # "max_context_length": LLM_MAX_TOKENS,
+    "max_context_length": LLM_MAX_TOKENS,
     "PYPI_TOKEN": "<your_valid_pypi_token>"
 }
