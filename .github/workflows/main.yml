@@ -21,8 +21,13 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        pip install black
         pip install -e .
+        pip install black[jupyter]
 
-    - name: Run main.py with input
+    - name: Install black[jupyter]
+      run: |
+        pip install black jupyter
+        black --check . -l 140
       run: |
         echo -e "\n\n\nn" | python main.py
