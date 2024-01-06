@@ -21,5 +21,5 @@ SIMPLE = {
         # '\n\n\n',
     ],
     # "max_context_length": LLM_MAX_TOKENS,
-    "max_length": 512,
+    "PYPI_TOKEN": "<your_valid_pypi_token>"
 }
