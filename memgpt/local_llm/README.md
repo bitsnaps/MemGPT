@@ -81,7 +81,10 @@ Once you have an LLM web server set up, all you need to do to connect it to MemG
   - currently this is set up to work with web UI, but it might work with other backends / web servers too!
   - if you'd like to use a different web server and you need a different style of HTTP request, let us know on the discussion page (https://github.com/cpacker/MemGPT/discussions/67) and we'll try to add it ASAP
 
-You can change the prompt format and output parser used with the `--model` flag. For example:
+You can change the prompt format and output parser used with the `--model` flag. # Set the pypi-token.pypi value using the following command
+```sh
+poetry config pypi-token.pypi YOUR_API_TOKEN
+```
 
 ```sh
 # Set the pypi-token.pypi value using the following command
