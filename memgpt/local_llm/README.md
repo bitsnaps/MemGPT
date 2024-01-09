@@ -17,6 +17,8 @@ When using open LLMs with MemGPT, **the main failure case will be your LLM outpu
 
 ## How to set the pypi-token.pypi value
 
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
+
 ## How to set the pypi-token.pypi value
 
 ## How to set the pypi-token.pypi value
@@ -30,6 +32,8 @@ poetry config pypi-token.pypi YOUR_API_TOKEN
 ```
 
 ## How to set the pypi-token.pypi value
+
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
 
 To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
 
@@ -59,8 +63,11 @@ For the purposes of this example, we're going to serve (host) the LLMs using [oo
 In your terminal where you're running MemGPT, run:
 
 ```sh
-# Set the pypi-token.pypi value using the following command
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
+
+```sh
 poetry config pypi-token.pypi YOUR_API_TOKEN
+```
 # if you are running web UI locally, the default port will be 5000
 export OPENAI_API_BASE=http://127.0.0.1:5000
 export BACKEND_TYPE=webui
@@ -111,8 +118,11 @@ poetry config pypi-token.pypi YOUR_API_TOKEN
 ```
 
 ```sh
-# Set the pypi-token.pypi value using the following command
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
+
+```sh
 poetry config pypi-token.pypi YOUR_API_TOKEN
+```
 poetry config pypi-token.pypi YOUR_API_TOKEN
 # this will cause MemGPT to use the airoboros-l2-70b-2.1 parsers, regardless of what model you're hosting on your web server
 # you can mix and match parsers + models!
