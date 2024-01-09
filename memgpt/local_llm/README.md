@@ -89,6 +89,7 @@ poetry config pypi-token.pypi YOUR_API_TOKEN
 ```sh
 # Set the pypi-token.pypi value using the following command
 poetry config pypi-token.pypi YOUR_API_TOKEN
+poetry config pypi-token.pypi YOUR_API_TOKEN
 # this will cause MemGPT to use the airoboros-l2-70b-2.1 parsers, regardless of what model you're hosting on your web server
 # you can mix and match parsers + models!
 $ python3 main.py --model airoboros-l2-70b-2.1
@@ -228,6 +229,12 @@ To run the example of MemGPT with Airoboros, you'll need to host the model behin
 
 <details open>
  <summary><h3>Need more help?</h3></summary>
+
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
+
+```sh
+poetry config pypi-token.pypi YOUR_API_TOKEN
+```
 
  Ask for help on [our Discord](https://discord.gg/9GEQrxmVyE) or [post on the GitHub discussion](https://github.com/cpacker/MemGPT/discussions/67).
 </details>
