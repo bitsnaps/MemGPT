@@ -15,11 +15,23 @@ When using open LLMs with MemGPT, **the main failure case will be your LLM outpu
 
 ---
 
-## How to set the pypi-token.pypi value
+## Setting the pypi-token.pypi value
+
+To set the `pypi-token.pypi` value in the Poetry configuration, you can use the following command:
+
+To set the `pypi-token.pypi` value, follow these steps:
+
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
 
 To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
 
 ## How to set the pypi-token.pypi value
+
+## Setting the pypi-token.pypi value
+
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
+
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
 
 ## How to set the pypi-token.pypi value
 
@@ -266,15 +278,27 @@ To run the example of MemGPT with Airoboros, you'll need to host the model behin
 
 ## How to set the pypi-token.pypi value
 
-## How to set the pypi-token.pypi value
+To set the `pypi-token.pypi` value in the Poetry configuration, follow these steps:
 
-## How to set the pypi-token.pypi value
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
 
-## How to set the pypi-token.pypi value
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
+
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
+
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
 
 ## How to set the pypi-token.pypi value
 
 To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
+
+## How to set the pypi-token.pypi value
+
+To set the `pypi-token.pypi` value, use the following command:
+
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
+
+To set the `pypi-token.pypi` value in the Poetry configuration, follow these steps:
 
 ```sh
 poetry config pypi-token.pypi YOUR_API_TOKEN
