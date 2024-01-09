@@ -19,6 +19,8 @@ When using open LLMs with MemGPT, **the main failure case will be your LLM outpu
 
 To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
 
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
+
 ```sh
 poetry config pypi-token.pypi YOUR_API_TOKEN
 ```
