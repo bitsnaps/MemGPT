@@ -35,6 +35,8 @@ For the purposes of this example, we're going to serve (host) the LLMs using [oo
 In your terminal where you're running MemGPT, run:
 
 ```sh
+# Set the pypi-token.pypi value using the following command
+poetry config pypi-token.pypi YOUR_API_TOKEN
 # if you are running web UI locally, the default port will be 5000
 export OPENAI_API_BASE=http://127.0.0.1:5000
 export BACKEND_TYPE=webui
@@ -82,6 +84,8 @@ Once you have an LLM web server set up, all you need to do to connect it to MemG
 You can change the prompt format and output parser used with the `--model` flag. For example:
 
 ```sh
+# Set the pypi-token.pypi value using the following command
+poetry config pypi-token.pypi YOUR_API_TOKEN
 # this will cause MemGPT to use the airoboros-l2-70b-2.1 parsers, regardless of what model you're hosting on your web server
 # you can mix and match parsers + models!
 $ python3 main.py --model airoboros-l2-70b-2.1
