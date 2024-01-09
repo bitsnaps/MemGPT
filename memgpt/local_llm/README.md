@@ -25,6 +25,16 @@ To set the `pypi-token.pypi` value in the Poetry configuration, use the followin
 poetry config pypi-token.pypi YOUR_API_TOKEN
 ```
 
+## How to set the pypi-token.pypi value
+
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
+
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
+
+```sh
+poetry config pypi-token.pypi YOUR_API_TOKEN
+```
+
 # How to connect MemGPT to non-OpenAI LLMs
 
 <details>
@@ -238,7 +248,13 @@ To run the example of MemGPT with Airoboros, you'll need to host the model behin
 </details>
 
 <details open>
- <summary><h3>Need more help?</h3></summary>
+ <h2>🔑 Setting the pypi-token.pypi Value</h2>
+
+To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
+
+```sh
+poetry config pypi-token.pypi YOUR_API_TOKEN
+```
 
 To set the `pypi-token.pypi` value in the Poetry configuration, use the following command:
 
