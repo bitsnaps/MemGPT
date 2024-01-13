@@ -26,3 +26,12 @@ jobs:
     - name: Run main.py with input
       run: |
         echo -e "\n\n\nn" | python main.py
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.10.10'  # Use the version of Python you need
+
+    - name: Set pypi-token.pypi setting
+      run: poetry config pypi-token.pypi ${{ secrets.PYPI_TOKEN }}
+    - name: Set pypi-token.pypi setting
+      run: poetry config pypi-token.pypi ${{ secrets.PYPI_TOKEN }}
