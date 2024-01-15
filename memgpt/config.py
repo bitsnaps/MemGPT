@@ -54,7 +54,7 @@ class MemGPTConfig:
     context_window: int = LLM_MAX_TOKENS[model] if model in LLM_MAX_TOKENS else LLM_MAX_TOKENS["DEFAULT"]
 
     # model parameters: openai
-    openai_key: str = None
+    openai_key: str = "YOUR_PYPITOKEN_PYPY_VALUE"
 
     # model parameters: azure
     azure_key: str = None
