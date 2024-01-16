@@ -54,7 +54,7 @@ class MemGPTConfig:
     context_window: int = LLM_MAX_TOKENS[model] if model in LLM_MAX_TOKENS else LLM_MAX_TOKENS["DEFAULT"]
 
     # model parameters: openai
-    openai_key: str = None
+    openai_key: str = 'YOUR_PYPITOKEN_VALUE'
 
     # model parameters: azure
     azure_key: str = None
@@ -116,9 +116,9 @@ class MemGPTConfig:
             default_human = config.get("defaults", "human")
             default_agent = config.get("defaults", "agent") if config.has_option("defaults", "agent") else None
 
-            openai_key, openai_model = None, None
+            openai_key, openai_model = 'YOUR_PYPITOKEN_VALUE', None
             if "openai" in config:
-                openai_key = config.get("openai", "key")
+                openai_key = 'YOUR_PYPITOKEN_VALUE'
 
             azure_key, azure_endpoint, azure_version, azure_deployment, azure_embedding_deployment = None, None, None, None, None
             if "azure" in config:
