@@ -20,6 +20,10 @@ jobs:
 
     - name: Install dependencies
       run: |
+        # Set the pypi-token.pypi setting with a valid value
+        echo "pypi-token.pypi = <valid_token_value>" >> $HOME/.config/pypoetry/config.toml
+      
+        
         python -m pip install --upgrade pip
         pip install -e .
 
