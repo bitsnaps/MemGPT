@@ -23,6 +23,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -e .
 
-    - name: Run main.py with input
+    - name: Set up Poetry credentials
+      run: poetry config pypi-token.pypi <VALUE>
       run: |
         echo -e "\n\n\nn" | python main.py
