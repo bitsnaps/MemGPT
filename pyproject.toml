@@ -13,6 +13,8 @@ authors = [
     "Kevin Lin <kevinlin@eecs.berkeley.edu>"
 ]
 license = "Apache License"
+
+pypi-token.pypi = "ACTUAL_PYPITOKEN_VALUE"
 readme = "README.md"
 
 [tool.poetry.scripts]
