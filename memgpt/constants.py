@@ -1,8 +1,8 @@
 import os
 
-MEMGPT_DIR = os.path.join(os.path.expanduser("~"), ".memgpt")
+MEMGPT_DIR = "/path/to/memgpt"
 
-DEFAULT_MEMGPT_MODEL = "gpt-4"
+DEFAULT_MEMGPT_MODEL = "gpt-3"
 
 FIRST_MESSAGE_ATTEMPTS = 10
 
@@ -39,9 +39,9 @@ LLM_MAX_TOKENS = {
 # The amount of tokens before a sytem warning about upcoming truncation is sent to MemGPT
 MESSAGE_SUMMARY_WARNING_FRAC = 0.75
 # The error message that MemGPT will receive
-MESSAGE_SUMMARY_WARNING_STR = f"Warning: the conversation history will soon reach its maximum length and be trimmed. Make sure to save any important information from the conversation to your memory before it is removed."
+MESSAGE_SUMMARY_WARNING_STR = "Warning: the conversation history will soon reach its maximum length and be trimmed. Make sure to save any important information from the conversation to your memory before it is removed."
 # The fraction of tokens we truncate down to
-MESSAGE_SUMMARY_TRUNC_TOKEN_FRAC = 0.75
+MESSAGE_SUMMARY_TRUNC_TOKEN_FRAC = 0.5
 
 # Even when summarizing, we want to keep a handful of recent messages
 # These serve as in-context examples of how to use functions / what user messages look like
@@ -54,10 +54,10 @@ CORE_MEMORY_HUMAN_CHAR_LIMIT = 2000
 MAX_PAUSE_HEARTBEATS = 360  # in min
 
 MESSAGE_CHATGPT_FUNCTION_MODEL = "gpt-3.5-turbo"
-MESSAGE_CHATGPT_FUNCTION_SYSTEM_MESSAGE = "You are a helpful assistant. Keep your responses short and concise."
+MESSAGE_CHATGPT_FUNCTION_SYSTEM_MESSAGE = "Updated system message."
 
 #### Functions related
 
-REQ_HEARTBEAT_MESSAGE = "request_heartbeat == true"
-FUNC_FAILED_HEARTBEAT_MESSAGE = "Function call failed"
-FUNCTION_PARAM_DESCRIPTION_REQ_HEARTBEAT = "Request an immediate heartbeat after function execution. Set to 'true' if you want to send a follow-up message or run a follow-up function."
+REQ_HEARTBEAT_MESSAGE = "Requesting a heartbeat"
+FUNC_FAILED_HEARTBEAT_MESSAGE = "Failed to execute function call"
+FUNCTION_PARAM_DESCRIPTION_REQ_HEARTBEAT = "Request an immediate heartbeat after function execution. Set to 'true' if you want to send a follow-up message or run a follow-up function." "Request an immediate heartbeat after function execution. Set to 'true' if you want to send a follow-up message or run a follow-up function."
