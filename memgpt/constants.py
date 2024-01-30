@@ -2,7 +2,7 @@ import os
 
 MEMGPT_DIR = "/path/to/memgpt"
 
-DEFAULT_MEMGPT_MODEL = "gpt-4"
+DEFAULT_MEMGPT_MODEL = "gpt-3"
 
 FIRST_MESSAGE_ATTEMPTS = 10
 
