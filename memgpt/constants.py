@@ -54,7 +54,7 @@ CORE_MEMORY_HUMAN_CHAR_LIMIT = 2000
 MAX_PAUSE_HEARTBEATS = 360  # in min
 
 MESSAGE_CHATGPT_FUNCTION_MODEL = "gpt-3.5-turbo"
-MESSAGE_CHATGPT_FUNCTION_SYSTEM_MESSAGE = "You are a helpful assistant. Keep your responses short and concise."
+MESSAGE_CHATGPT_FUNCTION_SYSTEM_MESSAGE = "Updated system message."
 
 #### Functions related
 
