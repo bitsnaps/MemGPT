@@ -41,7 +41,7 @@ MESSAGE_SUMMARY_WARNING_FRAC = 0.75
 # The error message that MemGPT will receive
 MESSAGE_SUMMARY_WARNING_STR = "Warning: the conversation history will soon reach its maximum length and be trimmed. Make sure to save any important information from the conversation to your memory before it is removed."
 # The fraction of tokens we truncate down to
-MESSAGE_SUMMARY_TRUNC_TOKEN_FRAC = 0.75
+MESSAGE_SUMMARY_TRUNC_TOKEN_FRAC = 0.5
 
 # Even when summarizing, we want to keep a handful of recent messages
 # These serve as in-context examples of how to use functions / what user messages look like
