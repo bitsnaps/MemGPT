@@ -1,6 +1,6 @@
 import os
 
-MEMGPT_DIR = os.path.join(os.path.expanduser("~"), ".memgpt")
+MEMGPT_DIR = "/path/to/memgpt"
 
 DEFAULT_MEMGPT_MODEL = "gpt-4"
 
