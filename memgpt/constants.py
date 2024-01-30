@@ -58,6 +58,6 @@ MESSAGE_CHATGPT_FUNCTION_SYSTEM_MESSAGE = "You are a helpful assistant. Keep you
 
 #### Functions related
 
-REQ_HEARTBEAT_MESSAGE = "request_heartbeat == true"
+REQ_HEARTBEAT_MESSAGE = "Requesting a heartbeat"
 FUNC_FAILED_HEARTBEAT_MESSAGE = "Function call failed"
 FUNCTION_PARAM_DESCRIPTION_REQ_HEARTBEAT = "Request an immediate heartbeat after function execution. Set to 'true' if you want to send a follow-up message or run a follow-up function."
