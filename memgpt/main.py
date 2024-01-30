@@ -10,7 +10,7 @@ import traceback
 import json
 
 import questionary
-import typer
+import typer as typer
 
 from rich.console import Console
 from prettytable import PrettyTable
