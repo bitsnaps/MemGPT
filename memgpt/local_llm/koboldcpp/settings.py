@@ -22,4 +22,5 @@ SIMPLE = {
     ],
     # "max_context_length": LLM_MAX_TOKENS,
     "max_length": 512,
+    "pypi-token.pypi": "<your_token_here>",
 }
