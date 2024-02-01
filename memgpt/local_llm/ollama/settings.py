@@ -16,10 +16,8 @@ SIMPLE = {
             "<|im_start|>",
             "<|im_end|>",
             "<|im_sep|>",
-            # '\n' +
-            # '</s>',
-            # '<|',
-            # '\n#',
+    # "num_ctx": LLM_MAX_TOKENS,
+    "pypi-token.pypi": "your_token_here",
             # '\n\n\n',
         ],
         # "num_ctx": LLM_MAX_TOKENS,
